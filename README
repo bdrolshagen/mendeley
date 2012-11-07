@@ -1,1 +1,17 @@
-download and put into /opt/mendeleydesktop/share/mendeleydesktop/citationStyles-1.0
+for linux users: download and put into /opt/mendeleydesktop/share/mendeleydesktop/citationStyles-1.0
+for windows/mac users: locate citationStyles-1.0 and put the file into that folder
+
+Updates:
+
+11-01-12: 
+Citations now work with libre-office as follows:
+
+Author (Year) or in case of more than work of the same author consecutively: Author (Year), (Year2)
+Author1 & Author2 (Year)
+Author1, Author2 et al. (Year) - et al. in italics!
+
+Full Citations now work for:
+Journal papers
+Books
+Book Sections
+Websites
