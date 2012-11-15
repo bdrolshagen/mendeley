@@ -197,10 +197,8 @@
         <else-if type="chapter paper-conference" match="any">
         
           <text macro="title" prefix=" " suffix="."/>
-          <group prefix=" " delimiter=" ">
-			<text term="In: " font-style="italic"/>
+          <group prefix=" In: " delimiter=" ">
 			<text macro="editor" suffix=","/>
-            <text term=" " text-case="capitalize-first"/>
             <text variable="container-title" font-style="italic" suffix="."/>
             <text variable="collection-title" suffix="."/>
             <group suffix=".">
