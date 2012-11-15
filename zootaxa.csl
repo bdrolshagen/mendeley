@@ -45,7 +45,6 @@
   <macro name="author">
     <names variable="author">
 	  <et-al font-style="italic" prefix=" "/>
-      <name name-as-sort-order="all" and="text" sort-separator=", " initialize-with="." delimiter-precedes-last="never" delimiter=", "/>
       <label form="short" prefix=" " suffix="." text-case="lowercase" strip-periods="true"/>
       <substitute>
         <names variable="editor"/>
@@ -56,7 +55,6 @@
   <macro name="author-short">
     <names variable="author">
 	  <et-al font-style="italic" prefix=" "/>
-      <name form="short" and="symbol" delimiter=", " delimiter-precedes-last="never" initialize-with=". "/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
