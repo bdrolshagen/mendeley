@@ -60,7 +60,7 @@
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
-        <text macro="anon"/>Title
+        <text macro="anon"/>
       </substitute>
     </names>
   </macro>
@@ -131,7 +131,7 @@
   <macro name="edition">
     <choose>
       <if is-numeric="edition">
-        <group delimiter=" ">Title
+        <group delimiter=" ">
           <number variable="edition" form="ordinal"/>
           <text term="edition" form="short" suffix="." strip-periods="true"/>
         </group>
