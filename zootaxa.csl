@@ -19,20 +19,20 @@
       <date-part name="day" suffix=", "/>
       <date-part name="year"/>
     </date>
-  </locale>
+  </locale>TitleTitle
   <locale xml:lang="nb-NO">
     <date form="text">
       <date-part name="day" suffix=" "/>
-      <date-part name="month" suffix=" "/>
+      <date-part name="month" suffix=" "/>Title
       <date-part name="year"/>
     </date>
   </locale>
   <locale xml:lang="nn-NO">
-    <date form="text">
+    <date form="text">Title
       <date-part name="day" suffix=" "/>
       <date-part name="month" suffix=" "/>
       <date-part name="year"/>
-    </date>
+    </date>Title
   </locale>
   <macro name="editor">
     <names variable="editor" delimiter=", ">
@@ -52,7 +52,7 @@
         <names variable="editor"/>
         <text macro="anon"/>
       </substitute>
-    </names>
+    </names>Title
   </macro>
   <macro name="author-short">
     <names variable="author">
@@ -61,7 +61,7 @@
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
-        <text macro="anon"/>
+        <text macro="anon"/>Title
       </substitute>
     </names>
   </macro>
@@ -85,7 +85,7 @@
     <choose>
       <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
         <text variable="title" font-style="italic"/>
-      </if>
+      </if>Title
       <else>
         <text variable="title" quotes="false"/>
       </else>
@@ -132,7 +132,7 @@
   <macro name="edition">
     <choose>
       <if is-numeric="edition">
-        <group delimiter=" ">
+        <group delimiter=" ">Title
           <number variable="edition" form="ordinal"/>
           <text term="edition" form="short" suffix="." strip-periods="true"/>
         </group>
@@ -141,7 +141,7 @@
         <text variable="edition" suffix="."/>
       </else>
     </choose>
-  </macro>
+  </macro>Title
   <macro name="locator">
     <choose>
       <if locator="page">
@@ -153,13 +153,13 @@
           <text variable="locator"/>
         </group>
       </else>
-    </choose>
+    </choose>font-style="italic"
   </macro>
   <citation et-al-min="2" et-al-use-first="2" et-al-subsequent-min="2" et-al-subsequent-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year" givenname-disambiguation-rule="primary-name">
     
     <sort>
       <key macro="author-short"/>
-      <key macro="year-date" suffix=")"/>
+      <key macro="year-date"/>
     </sort>
     <layout prefix="" delimiter="; ">
       <group delimiter=", ">
@@ -194,11 +194,12 @@
           <text macro="publisher"/>
           <text variable="page" prefix=" " suffix=" pp"/>
           </group>
-        </if>
-        <else>
-        <if type="chapter paper-conference" match="any">
+		</if>
+        <else-if type="chapter paper-conference" match="any">
+        
           <text macro="title" prefix=" " suffix="."/>
-          <group prefix=" In: " delimiter=" ">
+          <group prefix="" delimiter=" ">
+			<text term=" In: " font-style="italic"/>
 			<text macro="editor" suffix=","/>
             <text term="" text-case="capitalize-first"/>
             <text variable="container-title" font-style="italic" suffix="."/>
@@ -210,9 +211,9 @@
               </group>
             </group>
           </group>
-        </if>
-        </else>
-        <else>
+        </else-if>
+        
+        
         <else-if type="bill graphic legal_case legislation manuscript motion_picture report song thesis" match="any">
           <text macro="legal_case"/>
           <group prefix=" " delimiter=" ">
@@ -225,7 +226,7 @@
           <text variable="page" prefix=" " suffix="pp."/>
           </group>
         </else-if>
-        </else>
+        
         <else>
           <group prefix=" " delimiter=" " suffix=".">
             <text macro="title"/>
@@ -239,6 +240,7 @@
             <text variable="page" prefix=", " suffix="."/>
           </group>
         </else>
+        
       </choose>
       <text prefix=" " macro="access" suffix="."/>
      
