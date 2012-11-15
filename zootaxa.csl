@@ -241,10 +241,7 @@
         </else>
         
       </choose>
-      <text prefix=" " macro="access" suffix="."/>
-     
-   </macro>
-   
+      <text prefix=" " macro="access" suffix="."/> 
     </layout>
   </bibliography>
 </style>
