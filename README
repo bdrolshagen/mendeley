@@ -18,3 +18,6 @@ Websites
 
 11-15-12
 style is now valid csl: http://validator.nu/?doc=https%3A%2F%2Fraw.github.com%2Fbdrolshagen%2Fmendeley%2Fmaster%2Fzootaxa.csl&schema=https%3A%2F%2Fgithub.com%2Fcitation-style-language%2Fschema%2Fraw%2Fv1.0.1%2Fcsl.rnc&parser=xml&laxtype=yes
+
+11-18-12
+fixed some minor errors with the author names
