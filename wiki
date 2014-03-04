@@ -11,11 +11,11 @@
     </author>
     <category citation-format="author-date"/>
     <category field="biology"/>
-    <issn></issn>
-    <eissn></eissn>
+    <issn/>
+    <eissn/>
     <summary>Citation style for the Dipluridae wiki based on BAS citations</summary>
     <published>04.03.14</published>
-    <updated>2014-03-04T19:50:25+00:00</updated>
+    <updated>2014-03-04T19:52:52+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -219,9 +219,9 @@
           <group prefix=" " suffix=".">
             <text variable="container-title" font-style="italic" prefix="''[[" suffix="]]''"/>
             <group prefix=" ">
-              <text variable="volume"/>
+              <text variable="volume" suffix=":"/>
             </group>
-            <text variable="page" prefix=", " suffix="."/>
+            <text variable="page" prefix=" " suffix="."/>
           </group>
         </else>
       </choose>
