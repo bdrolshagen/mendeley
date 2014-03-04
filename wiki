@@ -226,6 +226,6 @@
         </else>
       </choose>
       <text prefix=" " macro="access" suffix="."/>
-    </layout>
+    </layout> 
   </bibliography>
 </style>
