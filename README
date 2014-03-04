@@ -6,21 +6,5 @@ Updates:
 04.03.14:
 validated Arachne style has been added.
 
-11-01-12: 
-Citations now work with libre-office as follows:
-
-Author (Year) or in case of more than work of the same author consecutively: Author (Year), (Year2)
-Author1 & Author2 (Year)
-Author1, Author2 et al. (Year) - et al. in italics!
-
-Full Citations now work for:
-Journal papers
-Books
-Book Sections
-Websites
-
-11-15-12
-style is now valid csl: http://validator.nu/?doc=https%3A%2F%2Fraw.github.com%2Fbdrolshagen%2Fmendeley%2Fmaster%2Fzootaxa.csl&schema=https%3A%2F%2Fgithub.com%2Fcitation-style-language%2Fschema%2Fraw%2Fv1.0.1%2Fcsl.rnc&parser=xml&laxtype=yes
-
-11-18-12
-fixed some minor errors with the author names
+18.11.12
+validated Zootaxa style has been added.
