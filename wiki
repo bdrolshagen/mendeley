@@ -15,7 +15,7 @@
     <eissn/>
     <summary>Citation style for the Dipluridae wiki based on BAS citations</summary>
     <published>04.03.14</published>
-    <updated>2014-03-04T19:52:52+00:00</updated>
+    <updated>2014-03-04T20:04:57+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -36,7 +36,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name prefix="{{aut|" suffix="}}" and="symbol" delimiter-precedes-last="never" initialize-with="." name-as-sort-order="all"/>
+      <name prefix="* {{aut|" suffix="}}" and="symbol" delimiter-precedes-last="never" initialize-with="." name-as-sort-order="all"/>
       <et-al font-style="italic"/>
       <label form="short" prefix=" " suffix="." strip-periods="true"/>
       <substitute>
@@ -217,7 +217,7 @@
             <text macro="editor"/>
           </group>
           <group prefix=" " suffix=".">
-            <text variable="container-title" font-style="italic" prefix="''[[" suffix="]]''"/>
+            <text variable="container-title" font-style="italic" prefix="''" suffix="''"/>
             <group prefix=" ">
               <text variable="volume" suffix=":"/>
             </group>
