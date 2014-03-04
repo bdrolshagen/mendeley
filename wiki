@@ -15,7 +15,7 @@
     <eissn/>
     <summary>Citation style for the Dipluridae wiki based on BAS citations</summary>
     <published>04.03.14</published>
-    <updated>2014-03-04T20:05:04+00:00</updated>
+    <updated>2014-03-04T20:14:30+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
@@ -221,7 +221,7 @@
             <group prefix=" ">
               <text variable="volume" suffix=":"/>
             </group>
-            <text variable="page" prefix=" " suffix="."/>
+            <text variable="page" prefix=" " suffix=".&lt;br&gt;"/>
           </group>
         </else>
       </choose>
